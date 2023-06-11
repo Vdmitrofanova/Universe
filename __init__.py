@@ -30,6 +30,6 @@ def load_page_from_get_request(request_data): # Передаем запрос к
     except FileNotFoundError:
         return (HDRS_404 + 'Sorry, but there is no page..').encode('utf-8') #Не может открыть файл, потому что его нет
 
-if __name__ == '__main__':
+if __name__ == '__main__': #Ger
     start_my_server()
 
