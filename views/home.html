@@ -4,9 +4,14 @@
         <title>Home</title>
     </head>
     <body>
-        <h1>Well done, buddy... THIS IS HOME PAGE</h1>
+        <h1>Generating the main idea of the text</h1>
         <hr />
-        <p>connection established. What's next?</p>
         <p>you can visit <a href="/contact.html">CONTACT PAGE</a></p>
+        <form action="/url" method="GET">
+            <label for="link">Insert a link to the text: </label>
+            <input type="text" id="link" name="link" placeholder="https://" required>
+            <button type="submit">Submit</button>
+
+        </form>
     </body>
 </html>
